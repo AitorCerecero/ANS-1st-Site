@@ -17,7 +17,8 @@
   }
 
   body {
-    background-image: url("BG.jpg");
+    /*background-image: url("BG.jpg");*/
+    background-color: chocolate;
     background-repeat: no-repeat;
     background-size:cover;
     height: 100%;
@@ -42,6 +43,7 @@
     justify-content: space-between;
     margin: 100px;
     top: 50px;
+    
   }
 
   .right_img{
