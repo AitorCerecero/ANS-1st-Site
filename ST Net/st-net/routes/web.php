@@ -19,4 +19,10 @@ Route::get('/greeting', function () {
 
 //Route::get('/product',[ProductController::class,'index']);
 
-Route::resource('products', ProductController::class);
+Route::resource('product', ProductController::class);
+
+
+Route::get('/products/{id}', function (string $id) {
+    return 'Profe pongame 100 en los seederes de favor '.$id;
+});
+
